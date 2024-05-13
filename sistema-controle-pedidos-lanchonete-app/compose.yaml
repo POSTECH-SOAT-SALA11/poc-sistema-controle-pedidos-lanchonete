@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sistema-controle-pedidos-lanchonete-app
+    restart: always
+    ports:
+      - "8081:8080"
+    networks:
+      - lanchonete_network
+
+networks:
+  lanchonete_network:
+    driver: bridge
