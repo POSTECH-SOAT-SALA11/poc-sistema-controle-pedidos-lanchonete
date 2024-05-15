@@ -1,8 +1,11 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/lanchonete_db
+    url: jdbc:postgresql://db:5432/lanchonete_db
     username: lanchonete_user
     password: lanchonete_password
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      connection-timeout: 20000 # Tempo de espera de 20 segundos
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
