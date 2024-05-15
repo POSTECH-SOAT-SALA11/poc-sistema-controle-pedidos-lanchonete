@@ -1,6 +1,6 @@
 # Sistema de Controle de Pedidos para Lanchonete
 
-Este é um sistema de controle de pedidos para uma lanchonete, desenvolvido como parte de um desafio acadêmico de final de semestre. O sistema visa proporcionar uma experiência eficiente para clientes e funcionários, permitindo a realização de pedidos de forma automatizada e o acompanhamento do progresso dos pedidos em tempo real.
+Este é um sistema de controle de pedidos para uma lanchonete. O sistema visa proporcionar uma experiência eficiente para clientes e funcionários, permitindo a realização de pedidos de forma automatizada e o acompanhamento do progresso dos pedidos em tempo real.
 
 ## Funcionalidades Principais
 
